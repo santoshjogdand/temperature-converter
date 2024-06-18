@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100Vh;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    background-color: rgb(255, 236, 243);
+}
+h2{
+    margin-top: 30px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 230px;
+    height: 350px;
+    /* background-color: blueviolet; */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    /* gap: 10px; */
+    border-radius: 15px;
+    /* border: 1px solid black; */
+    background-color: white;
+    box-shadow:
+      0 1px 1px hsl(0deg 0% 0% / 0.075),
+      0 2px 2px hsl(0deg 0% 0% / 0.075),
+      0 4px 4px hsl(0deg 0% 0% / 0.075),
+      0 8px 8px hsl(0deg 0% 0% / 0.075),
+      0 16px 16px hsl(0deg 0% 0% / 0.075)
+    ;
+}
+input{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    width: 150px;
+    outline: none;
+    color: rgb(0, 0, 0);
+}
+input::placeholder{
+    color: rgb(0, 0, 0);
+
+}
+#inputSpan{
+    text-align: center;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    border-bottom: 1px solid black;
+    display: flex;
+    list-style: none;
+    word-wrap: break-word;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+select, option{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* font-weight: bold;    */
+    width: 200px;
+    height: 45px;   
+    border: none;
+    outline: none;
+    margin-top: 20px;
+}
+.op{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    width: 200px;
+    height: 45px;   
+    /* height: 50px; */
+    font-size: 14px;
+    padding: 50px;
+    margin: 50px;
+    top: 10px;
+    border-radius: 0;
+    border: 1px solid black ;
+    padding: 10px;
+    text-align: center;
+
+}
+.sel{
+    /* background-color: aqua; */
+    border: 1px solid black ;
+
+}
+#result{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 20px;
+    word-wrap: normal;
+    width: 100px;
+    /* background-color: aqua; */
+    word-break: break-all;
+    text-align: center;
+}
