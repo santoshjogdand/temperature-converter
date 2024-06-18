@@ -97,9 +97,6 @@ select, option{
     margin-bottom: 20px;
     margin-top: 20px;
     font-size: 20px;
-    word-wrap: normal;
-    width: 100px;
-    /* background-color: aqua; */
-    word-break: break-all;
+    word-wrap: normal; 
     text-align: center;
 }

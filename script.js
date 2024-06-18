@@ -21,9 +21,9 @@ tempInput.addEventListener("input", () => {
   let Temp = Number(tempInput.value);
   if (TempValidator(Temp)) {
     if (option.value == "CelToFer") {
-      result.textContent = CelToFer(Temp).toPrecision(3)+"°F";
+      result.textContent = CelToFer(Temp).toPrecision(7)+"°F";
     } else if (option.value == "FerToCel") {
-      result.textContent = FerToCel(Temp).toPrecision(3)+"°C";
+      result.textContent = FerToCel(Temp).toPrecision(7)+"°C";
     } else {
       console.log("Enter Value");
     }
@@ -33,9 +33,9 @@ option.addEventListener("input", () => {
   let Temp = Number(tempInput.value);
   if (TempValidator(Temp)) {
     if (option.value == "CelToFer") {
-      result.textContent = CelToFer(Temp).toPrecision(3)+"°F";
+      result.textContent = CelToFer(Temp).toPrecision(7)+"°F";
     } else if (option.value == "FerToCel") {
-        result.textContent = FerToCel(Temp).toPrecision(3) + "°C";
+        result.textContent = FerToCel(Temp).toPrecision(7) + "°C";
     } else {
       console.log("Enter Value");
     }
