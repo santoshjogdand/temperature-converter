@@ -8,6 +8,18 @@ function CelToFer(Temp) {
 function FerToCel(Temp) {
   return ((Temp - 32) * 5) / 9;
 }
+function CelToKel(Temp) {
+  return Temp + 273.15;
+}
+function KelToCel(Temp) {
+  return Temp - 273.15;
+}
+function FerToKel(Temp) {
+  return FerToCel(Temp) + 273.15;
+}
+function KelToFer(Temp) {
+  return CelToFer(KelToCel(Temp));
+}
 function TempValidator(Temp) {
   if (Temp.toString() == "NaN") {
     result.textContent = "Not a number!";
@@ -24,7 +36,16 @@ tempInput.addEventListener("input", () => {
       result.textContent = CelToFer(Temp).toPrecision(7)+"°F";
     } else if (option.value == "FerToCel") {
       result.textContent = FerToCel(Temp).toPrecision(7)+"°C";
-    } else {
+    }else if(option.value == "CelToKel"){
+      result.textContent = CelToKel(Temp).toPrecision(7)+"K";
+    }else if(option.value == "KelToCel"){
+      result.textContent = KelToCel(Temp).toPrecision(7)+"°C";
+    }else if(option.value == "FerToKel"){
+      result.textContent = FerToKel(Temp).toPrecision(7)+"K";
+    }else if(option.value == "KelToFer"){
+      result.textContent = KelToFer(Temp).toPrecision(7)+"°F";
+    }
+     else {
       console.log("Enter Value");
     }
   }
@@ -35,8 +56,17 @@ option.addEventListener("input", () => {
     if (option.value == "CelToFer") {
       result.textContent = CelToFer(Temp).toPrecision(7)+"°F";
     } else if (option.value == "FerToCel") {
-        result.textContent = FerToCel(Temp).toPrecision(7) + "°C";
-    } else {
+      result.textContent = FerToCel(Temp).toPrecision(7)+"°C";
+    }else if(option.value == "CelToKel"){
+      result.textContent = CelToKel(Temp).toPrecision(7)+"K";
+    }else if(option.value == "KelToCel"){
+      result.textContent = KelToCel(Temp).toPrecision(7)+"°C";
+    }else if(option.value == "FerToKel"){
+      result.textContent = FerToKel(Temp).toPrecision(7)+"K";
+    }else if(option.value == "KelToFer"){
+      result.textContent = KelToFer(Temp).toPrecision(7)+"°F";
+    }
+     else {
       console.log("Enter Value");
     }
   }
