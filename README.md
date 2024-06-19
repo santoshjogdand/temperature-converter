@@ -45,7 +45,7 @@ You need a modern web browser and a text editor.
 
 1. Enter the temperature value in the input field.
 2. Select the conversion type from the dropdown menu (Celsius to Fahrenheit, etc.).
-3. Click the "Convert" button to see the converted temperature.
+3. It will show converted temperature.
 
 ## Technologies Used
 
