@@ -13,7 +13,7 @@ This is a simple temperature converter web application built using HTML, CSS, an
 
 ## Demo
 
-For a live demo, visit [Temperature Converter Demo](https://santoshjogdand.github.io/temperature-converter/).
+For a live demo, visit [Temperature Converter Demo]((https://s-temp-converter.netlify.app/)).
 
 ## Screenshots
 
