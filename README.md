@@ -17,7 +17,7 @@ For a live demo, visit [Link](https://s-temp-converter.netlify.app/).
 
 ## Screenshots
 
-![Temperature Converter Screenshot](/screenshots/temperature-converter.png)
+![Temperature Converter Screenshot](https://i.ibb.co/k8vt31F/Screenshot-2024-06-19-22-15-11-35-40deb401b9ffe8e1df2f1cc5ba480b12.jpg)
 
 ## Getting Started
 
