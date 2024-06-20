@@ -10,14 +10,16 @@ body{
 }
 h2{
     margin-top: 30px;
+    font-size: 35px;
+    
 }
 .main{
     display: flex;
     flex-direction: column;
-    width: 230px;
-    height: 350px;
+    width: 300px;
+    height: 550px;
     /* background-color: blueviolet; */
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin: auto;
     position: absolute;
@@ -33,16 +35,17 @@ h2{
       0 8px 8px hsl(0deg 0% 0% / 0.075),
       0 16px 16px hsl(0deg 0% 0% / 0.075)
     ;
+    
 }
 input{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 70px;
     text-align: center;
     text-decoration: none;
     background-color: transparent;
     border: none;
-    width: 150px;
+    width: 200px;
     outline: none;
     color: rgb(0, 0, 0);
 }
@@ -53,15 +56,14 @@ input::placeholder{
 #inputSpan{
     text-align: center;
     border-radius: 5px;
-    width: 150px;
-    height: 50px;
+    width: 200px;
+    height: 80px;
     border-bottom: 1px solid black;
     display: flex;
     list-style: none;
     word-wrap: break-word;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
 }
 select, option{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -96,7 +98,18 @@ select, option{
 #result{
     margin-bottom: 20px;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 40px;
     word-wrap: normal; 
     text-align: center;
+}
+a{
+    font-weight: 100;
+    font-size: small;
+    color: rgb(255, 144, 185);
+}
+.social_links{
+    margin-bottom: 20px;
+}
+#github_logo{
+    width: 30px;
 }

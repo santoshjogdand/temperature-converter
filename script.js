@@ -33,17 +33,17 @@ tempInput.addEventListener("input", () => {
   let Temp = Number(tempInput.value);
   if (TempValidator(Temp)) {
     if (option.value == "CelToFer") {
-      result.textContent = CelToFer(Temp).toPrecision(7)+"°F";
+      result.textContent = CelToFer(Temp).toPrecision(5)+"°F";
     } else if (option.value == "FerToCel") {
-      result.textContent = FerToCel(Temp).toPrecision(7)+"°C";
+      result.textContent = FerToCel(Temp).toPrecision(5)+"°C";
     }else if(option.value == "CelToKel"){
-      result.textContent = CelToKel(Temp).toPrecision(7)+"K";
+      result.textContent = CelToKel(Temp).toPrecision(5)+"K";
     }else if(option.value == "KelToCel"){
-      result.textContent = KelToCel(Temp).toPrecision(7)+"°C";
+      result.textContent = KelToCel(Temp).toPrecision(5)+"°C";
     }else if(option.value == "FerToKel"){
-      result.textContent = FerToKel(Temp).toPrecision(7)+"K";
+      result.textContent = FerToKel(Temp).toPrecision(5)+"K";
     }else if(option.value == "KelToFer"){
-      result.textContent = KelToFer(Temp).toPrecision(7)+"°F";
+      result.textContent = KelToFer(Temp).toPrecision(5)+"°F";
     }
      else {
       console.log("Enter Value");
@@ -54,17 +54,17 @@ option.addEventListener("input", () => {
   let Temp = Number(tempInput.value);
   if (TempValidator(Temp)) {
     if (option.value == "CelToFer") {
-      result.textContent = CelToFer(Temp).toPrecision(7)+"°F";
+      result.textContent = CelToFer(Temp).toPrecision(5)+"°F";
     } else if (option.value == "FerToCel") {
-      result.textContent = FerToCel(Temp).toPrecision(7)+"°C";
+      result.textContent = FerToCel(Temp).toPrecision(5)+"°C";
     }else if(option.value == "CelToKel"){
-      result.textContent = CelToKel(Temp).toPrecision(7)+"K";
+      result.textContent = CelToKel(Temp).toPrecision(5)+"K";
     }else if(option.value == "KelToCel"){
-      result.textContent = KelToCel(Temp).toPrecision(7)+"°C";
+      result.textContent = KelToCel(Temp).toPrecision(5)+"°C";
     }else if(option.value == "FerToKel"){
-      result.textContent = FerToKel(Temp).toPrecision(7)+"K";
+      result.textContent = FerToKel(Temp).toPrecision(5)+"K";
     }else if(option.value == "KelToFer"){
-      result.textContent = KelToFer(Temp).toPrecision(7)+"°F";
+      result.textContent = KelToFer(Temp).toPrecision(5)+"°F";
     }
      else {
       console.log("Enter Value");
